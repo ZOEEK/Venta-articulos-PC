@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de compra</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/micss.css">
+    <script src="js/validacion.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl">
+            <a href="index.html" class="navbar-brand" id="logo"><img src="img/comprayventa-logoblanco.png" alt=""></a>
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item active">
+                    <a href="quienes-somos.html" class="nav-link">Quienes somos</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="productos.html" class="nav-link">Productos</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="ofertas.html" class="nav-link">Ofertas</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="formulario-compra.html" class="nav-link">Formulario de compra</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 offset-4">
+                <h2 class="titulo">Formulario de compra</h2>
+                <br>
+                <br>
+                <form method="GET" onsubmit="return validaForm();">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombre">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingrese apellido">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese su email">
+                        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su email con alguien más</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto">Producto</label>
+                        <input type="text" class="form-control" id="producto" placeholder="Ingrese producto">
+                    </div>
+                    <div class="form-group">
+                        <label for="cantidad">Cantidad</label>
+                        <input type="text" class="form-control" id="cantidad" placeholder="Ingrese cantidad">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    </div>
+                    <div class="col-xl-3 offset-">
+                        <button type="submit" class="btn btn-primary formbtn">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer blue">
+        <div class="footer-copyright text-center py-3">
+            <p>Felipe Espinoza B. - Sección 349</p>
+        </div>
+    </footer>
+</body>
+
+</html>

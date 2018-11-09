@@ -1,0 +1,146 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+/* FIN IMPORTS */
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+#logo img{
+    width: 100%;
+}
+.navbar{
+    height: 70px;
+}
+.w-100{
+    height: 500px;
+    margin: 50px auto;
+}
+.bg-primary{
+    background-color: #00a5ff !important;
+}
+.nav-link:hover{
+    background-color: rgb(255, 123, 0);
+}
+.navbar-brand{
+    width: 103px;
+}
+.page-footer{
+    background-color: #00a5ff !important;
+    height: 70px;
+    margin-top: 20px; 
+}
+.page-footer{
+    margin-top: 50px;
+}
+.footer-copyright p{
+    margin-top: 6px;
+    color: #fff;
+}
+.card{
+    margin: 15px;
+}
+.separadorProductos{
+    width: 100%;
+}
+#productosDestacados{
+    text-align: center;
+    margin-bottom: 50px; 
+}
+.btn{
+    white-space: pre-wrap;
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.imglightbox{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.imglightbox2{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.titulo-producto{
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Passion One', cursive;
+}
+.info{
+    text-align: left;
+
+}
+.infoAdicional{
+    text-align: left;
+    margin-top: -15px;
+}
+.descripcion{
+    margin-top: 50px;
+}
+.tabset{
+    margin-top: 40px;
+    max-width: 80em;
+}
+strong{
+    font-weight: bold;
+}
+.general.primero{
+    margin-top: 20px;
+}
+.general{
+    text-align: justify
+}
+.tab-panel{
+    background-color: rgb(248, 248, 248);
+}
+.especificaciones{
+    list-style: none;
+}
+.row{
+    margin-right: 0;
+}
+.img-general{
+    max-width: 928px;
+    height: auto;
+    margin: 0 auto;
+}
+.img-centro{
+    margin-top: -16px;
+}
+#ofertasDestacadas{
+    margin: 30px;
+    text-align: center;
+}
+.rojo{
+    color: red;
+}
+/* Ajustes adicionales para 2 tamaños de pantalla */
+@media (min-width: 992px){
+    .card{
+        min-height: 376px;
+    }
+    .general.primero.logo{
+        margin-left: 270px;
+    }
+  }
+@media (min-width: 1200px){
+    .img-centro{
+        margin-left: 155px;
+    }
+    .card{
+        min-height: 165px;
+    }
+    .kingston{
+        margin-top: 80px;
+    }
+    .general.primero.logo{
+        margin-left: 500px;
+    }
+}
+/* Fin de ajustes adicionales para 2 tamaños de pantalla */
